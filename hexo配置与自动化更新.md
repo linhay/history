@@ -1,12 +1,12 @@
 ---
 title: hexo配置与自动化更新
 date: 2018-03-08 
-categories: "hexo"
+categories: "docker"
 tags: 
      - hexo
      - docker
      - webhook
-description: hexo配置与自动化更新
+description: 采用docker构建hexo服务.
 ---
 
 # hexo配置与自动化更新
@@ -94,7 +94,7 @@ description: hexo配置与自动化更新
 
    ```shell
    # 切换目录
-   cd ~/hexo/post
+   cd ~/hexo/posts
    # 移除更改
    git checkout .
    # 拉取仓库更新
@@ -121,4 +121,18 @@ description: hexo配置与自动化更新
    sh update.sh
    # 结束就刷新网站资源了~
    ```
+
+3. **更新hexo仓库**:
+
+   ```shell
+   #1
+   docker exec -it hexo git pull
+   #2 进入容器
+   docker exec -it hexo /bin/bash
+   git checkout .
+   git pull
+   ```
+
+   ​
+
 
