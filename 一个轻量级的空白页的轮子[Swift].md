@@ -1,5 +1,5 @@
 ---
-title: 一个轻量级的空白页的轮子[Swift]
+title: EmptyPage[Swift编写的空白页占位轮子]
 date: 2018-01-28
 categories: "iOS"
 tags: 
@@ -9,7 +9,7 @@ tags:
 description: 采用swift编写的轻量级可定制化的空白页轮子.
 ---
 
-# 一个轻量级的空白页的轮子[Swift]
+#EmptyPage[Swift编写的空白页占位轮子]
 
 一个UITableView / UICollectionView扩展，用于在视图没有内容显示的时候显示空白页.
 
