@@ -16,7 +16,6 @@ description: 采用docker构建hexo服务.
 - [NexT官网](http://theme-next.iissnan.com/)
 - [Next配置](http://shenzekun.cn/hexo的next主题个性化配置教程.html)
 
-
 ## hexo - docker
 
 ### [Docker安装](https://www.docker-cn.com/community-edition)
