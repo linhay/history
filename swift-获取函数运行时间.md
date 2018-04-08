@@ -5,7 +5,7 @@ categories: "ios"
 tags: 
      - ios
      - swift
-description: 
+description: 介绍几种获取时间差的方法.
 ---
 
 # Swift-计算函数运行时间
