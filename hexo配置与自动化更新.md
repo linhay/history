@@ -81,7 +81,7 @@ description: 采用docker构建hexo服务.
    # 构建image
    docker build -t hexo .
    # 启动容器
-   docker run -d --name hexo -p 80:4000 -v $PWD/posts:/Hexo/source/_posts hexo
+   docker run -d --name hexo -p 9000:9000 -v $PWD/posts:/Hexo/source/_posts hexo
    # -d 守护态运行
    # --name 容器别名
    # -p 端口映射,[宿主机端口:容器端口]
