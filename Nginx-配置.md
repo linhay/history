@@ -1,5 +1,5 @@
 ---
-title: Nginx配置https与端口映射
+title: nginx配置
 date: 2018-04-09
 categories: "server"
 tags: 
@@ -8,7 +8,7 @@ tags:
 description: Nginx配置https与端口映射.
 ---
 
-# Nginx配置https与端口映射
+# nginx配置
 
 ### https设置
 
@@ -22,7 +22,7 @@ description: Nginx配置https与端口映射.
 
 3. nginx配置
 
-   1. 将相应证书放置于/ect/nginx目录中
+   1. 将相应证书放置于/etc/nginx目录中
    2. nginx.conf添加443端口配置
 
    ```ruby
@@ -70,6 +70,36 @@ description: Nginx配置https与端口映射.
     }
 ```
 
+### 静态资源配置
+
+```ruby
+ server {
+        listen 443;
+        server_name www.linhey.com;
+     
+     #多个 location 依次匹配,直至匹配成功.
+        location ^~ /rn/ {
+            autoindex on;
+            autoindex_exact_size off;
+            autoindex_localtime on;
+            # 优先加载索引文件
+            index index.html;
+            root /root/rn/;  
+        }
+     
+		location ^~ / {
+            autoindex on;
+            autoindex_exact_size off;
+            autoindex_localtime on;
+            # 优先加载索引文件
+            index index.html;
+            root /root/html/;  
+        }
+    }
+```
+
+
+
 ### 端口映射
 
 ```ruby
@@ -106,5 +136,13 @@ description: Nginx配置https与端口映射.
             proxy_pass http://localhost:3001;
         }
     }
+```
+
+### error
+
+1.Permission denied
+
+```
+user nginx; => user root;
 ```
 
