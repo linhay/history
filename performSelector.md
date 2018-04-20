@@ -1,6 +1,6 @@
 ---
-title: performSelector
-date: 2018-01-02
+title: swift - 动态调用之performSelector
+date: 2018-04-20
 categories: "iOS"
 tags: 
      - iOS
@@ -8,7 +8,7 @@ tags:
 description: iOS中的动态调用之performSelector.
 ---
 
-# performSelector
+# swift - 动态调用之performSelector.
 
 ### 同步执行:
 
