@@ -10,6 +10,38 @@ description: Nginx配置https与端口映射.
 
 # nginx配置
 
+### 安装
+
+```shell
+ubuntu
+apt-get install nginx
+```
+
+### 命令
+
+1. 启动
+
+   ```
+   nginx
+   ```
+
+2. 重新加载配置文件
+
+   ```
+   nginx -s reload
+   ```
+
+3. 停止
+
+   ```
+   nginx -s stop
+   ```
+
+### 目录
+
+1. nginx.conf: `/etc/nginx/nginx.conf`
+2. log: `/var/log/nginx/access.log`
+
 ### https设置
 
 1. 证书申请
