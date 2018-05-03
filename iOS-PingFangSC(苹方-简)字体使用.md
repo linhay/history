@@ -7,8 +7,6 @@ tags:
      - ios
 ---
 
-#iOS-PingFangSC(苹方-简)字体使用
-
 #### 获取当前系统支持字体册
 
 ```swift
@@ -28,7 +26,7 @@ tags:
 let font = UIFont(name: "PingFangSC-Regular", size: 18) 
 ```
 
-
+< !--more-->
 
 #### 加载第三方字体
 
