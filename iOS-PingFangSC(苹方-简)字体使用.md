@@ -26,33 +26,20 @@ let font = UIFont(name: "PingFangSC-Regular", size: 18)
 
 <!--more-->
 
-### 加载第三方字体
+##加载第三方字体
 
-####  静态加载
+### 静态加载
 
-1. 添加字体文件
+1. **添加字体文件**
 
-2. info.plist修改
+2. **info.plist修改**
 
    - 增加`Fonts provided by application`字段
    - 在该字段下添加引入的字体文件名
 
    ![](https://s.linhey.com/iOS-PingFangSC%E5%AD%97%E4%BD%93%E4%BD%BF%E7%94%A8.png)
 
-
-##### 注意点
-
-1. iOS 9 以下 系统 没有`PingFang`系列字体.
-
-2. info.plist中声明字体文件后iOS系统才会在程序启动时加载相应字体.
-
-3. 使用`UIFont`时`name`使用字体`postScriptName`.~~(有些字体文件与真实名称不符)~~,可以使用字体册查看具体名称.
-
-   ![](https://s.linhey.com/iOS-PingFangSC%E5%AD%97%E4%BD%93%E4%BD%BF%E7%94%A8-2.png)
-
-
-
-#### 动态加载
+###  动态加载
 
 通过指定字体文件路径加载,该种方式可配合 **网络下发/字体加密** 使用.
 
@@ -70,9 +57,41 @@ func custom(fileURL: URL, size: CGFloat) -> UIFont? {
 
 
 
-### [唐巧: 动态下载苹果提供的多种中文字体](http://blog.devtang.com/2013/08/11/ios-asian-font-download-introduction/)
+### 动态下载苹果提供的多种中文字体
 
-[Apple demo链接](https://developer.apple.com/library/content/samplecode/DownloadFont/Listings/DownloadFont_ViewController_m.html)
+从 iOS 6 开始，苹果提供了一个新的 API 可以让我们动态下载苹果提供的额外字体。并且，这些字体是下载到系统中，也就是说，如果其他 App 也使用了这个字体或者 App 删除后重装时是无需再额外下载这个字体的。
+
+[OC 官方Demo](https://developer.apple.com/library/content/samplecode/DownloadFont/Listings/DownloadFont_ViewController_m.html) / [swift Demo](https://github.com/linhay/Apple-Demos/tree/master/DownloadFont)
+
+1. 判断字体是否存在
+
+   ```swift
+       if let aFont = UIFont(name: fontName, size: 12),
+         aFont.fontName == fontName || aFont.familyName == fontName{
+   	// 存在
+       }
+   ```
+
+2. 下载(具体代码请参照[swift Demo](https://github.com/linhay/Apple-Demos/tree/master/DownloadFont))
+
+   ```swift
+   let attrs = [kCTFontNameAttribute:fontName]
+   let desc = CTFontDescriptorCreateWithAttributes(attrs as CFDictionary)
+   let descs = [desc]
+   CTFontDescriptorMatchFontDescriptorsWithProgressHandler(descs as CFArray, nil) { (state, progressParameter) -> Bool in
+   // 下载
+   }     
+   ```
+
+   
+
+##### 注意点
+
+1. iOS 9 以下 系统 默认没有`PingFang`系列字体.
+
+2. 使用`UIFont`时`name`使用字体`postScriptName`.~~(有些字体文件与真实名称不符)~~,可以使用字体册查看具体名称.
+
+   ![](https://s.linhey.com/iOS-PingFangSC%E5%AD%97%E4%BD%93%E4%BD%BF%E7%94%A8-2.png)
 
 
 
