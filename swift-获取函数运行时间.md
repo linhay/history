@@ -5,14 +5,11 @@ categories: "ios"
 tags: 
      - ios
      - swift
-description: 介绍几种获取时间差的方法.
 ---
-
-# Swift-计算函数运行时间
 
 ### Date
 
-```
+```swift
   let t0 = Date()
   sleep(2)
   let t1 = Date()
@@ -21,7 +18,7 @@ description: 介绍几种获取时间差的方法.
 
 ###CFDate
 
-```
+```swift
   let t0 = CFAbsoluteTimeGetCurrent()
   sleep(2)
   let t1 = CFAbsoluteTimeGetCurrent()
@@ -30,12 +27,14 @@ description: 介绍几种获取时间差的方法.
 
 ### ProcessInfo
 
-```
+```swift
   let t0 = ProcessInfo.processInfo.systemUptime
   sleep(2)
   let t1 = ProcessInfo.processInfo.systemUptime
   print((t1 - t0) * 1000 * 1000 * 1000)
 ```
+
+<!--more-->
 
 ### Mach 
 
