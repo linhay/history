@@ -1,11 +1,15 @@
 ---
-title: iOS-PingFangSC(苹方-简)字体使用
+title: iOS-加载第三方字体
 date: 2018-05-02
 categories: "iOS"
 tags: 
      - siwft
      - ios
 ---
+
+
+## 加载第三方字体
+
 
 ### 获取当前系统支持字体册
 
@@ -26,9 +30,10 @@ let font = UIFont(name: "PingFangSC-Regular", size: 18)
 
 <!--more-->
 
-## 加载第三方字体
 
 ### 静态加载
+
+该方式简单直接,只需在工程中包含字体文件,并在info.plist声明便可使用.
 
 1. **添加字体文件**
 
@@ -54,8 +59,6 @@ func custom(fileURL: URL, size: CGFloat) -> UIFont? {
     return UIFont(name: fontName, size: size)
   }
 ```
-
-
 
 ### 动态下载苹果提供的多种中文字体
 
