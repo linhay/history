@@ -1,6 +1,6 @@
 ---
 title: [javascript]将 callback函数 封装为 promise 形式
-date: 2018-07-09
+date: 2018-07-09 
 categories: "javascript"
 tags: 
      - javascript
