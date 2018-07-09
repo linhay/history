@@ -1,13 +1,10 @@
 ---
-title: [javascript]将 callback函数 封装为 promise 形式
-date: 2018-07-09 
-categories: "javascript"
-tags: 
-     - javascript
-     - function
-     - callback
-     - promise
-description: 将 callback函数 封装为 promise 形式.
+title: javascript:将callback函数封装为promise对象.
+date: 2018-07-09
+categories: [javascript]
+tags: [javascript,function,callback,promise]
+
+description: 将callback函数封装为promise对象.
 ---
 
 # 将callback函数封装为promise对象
