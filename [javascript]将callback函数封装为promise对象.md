@@ -10,8 +10,6 @@ tags:
 description: 将 callback函数 封装为 promise 形式.
 ---
 
-
-
 # 将 callback函数 封装为 promise 对象
 
 [代码传送门](https://github.com/linhay/dustdin/blob/master/javascript/callback%20to%20promise.js)
