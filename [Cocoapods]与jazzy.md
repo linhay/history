@@ -1,12 +1,8 @@
 ---
-title: Cocoapod 与 jazzy
+title: Cocoapods 与 jazzy
 date: 2018-06-30
-categories: "cocoapod"
-tags: 
-     - Cocoapod
-     - Github
-     - jazzy
-     - api
+categories: [cocoapods]
+tags: [cocoapods,jazzy,github,api]
 description: jazzy 是一款可以为 Swift 和 Objective-C 代码产生具有 Apple 风格的代码文档工具.
 ---
 

@@ -1,10 +1,8 @@
 ---
 title: nginx.conf 配置
 date: 2018-04-09
-categories: "server"
-tags: 
-     - nginx
-     - server
+categories: [server]
+tags: [nginx,server,ubuntu]
 description: nginx.conf 
 ---
 

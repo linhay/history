@@ -1,10 +1,8 @@
 ---
 title: (施工ing) swift - 动态调用之performSelector
 date: 2018-04-20
-categories: "iOS"
-tags: 
-     - iOS
-     - swift
+categories: [ios]
+tags: [ios,swift]
 description: iOS中的动态调用之performSelector.
 ---
 

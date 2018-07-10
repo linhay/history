@@ -1,12 +1,8 @@
 ---
-title: Cocoapod 与 Travis-CI
+title: Cocoapods 与 Travis-CI
 date: 2018-06-30
-categories: "cocoapod"
-tags: 
-     - Cocoapod
-     - Github
-     - Travis
-     - CI
+categories: [cocoapods]
+tags: [cocoapods,travis,github,ci]
 description: Travis-CI 是一个专门为开源项目打造的持续集成环境,与Github高度集成.支持iOS/macOS构建服务.
 ---
 

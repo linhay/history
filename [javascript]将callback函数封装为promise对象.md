@@ -3,7 +3,6 @@ title: javascript:将callback函数封装为promise对象.
 date: 2018-07-09
 categories: [javascript]
 tags: [javascript,function,callback,promise]
-
 description: 将callback函数封装为promise对象.
 ---
 

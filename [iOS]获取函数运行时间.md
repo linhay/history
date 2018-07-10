@@ -1,10 +1,8 @@
 ---
 title: Swift-计算函数运行时间
 date: 2018-04-08 
-categories: "ios"
-tags: 
-     - ios
-     - swift
+categories: [ios]
+tags: [ios,swift]
 ---
 
 ### Date

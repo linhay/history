@@ -1,10 +1,8 @@
 ---
 title: iOS-加载第三方字体
 date: 2018-05-02
-categories: "iOS"
-tags: 
-     - siwft
-     - ios
+categories: [ios]
+tags: [ios,swift]
 ---
 
 

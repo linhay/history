@@ -1,11 +1,8 @@
 ---
 title: hexo配置与自动化更新
 date: 2018-03-08 
-categories: "docker"
-tags: 
-     - hexo
-     - docker
-     - webhook
+categories: [docker]
+tags: [hexo,docker,webhook] 
 description: 采用docker构建hexo服务.
 ---
 

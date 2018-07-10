@@ -1,11 +1,8 @@
 ---
 title: runtime-API的速查手册
 date: 2017-01-01
-categories: "iOS"
-tags: 
-     - iOS
-     - runtime
-     - api
+categories: [ios]
+tags: [ios,Runtime,api]
 description: runtime-API的速查手册
 ---
 

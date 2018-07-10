@@ -1,11 +1,8 @@
 ---
-title: EmptyPage[Swift编写的空白页占位轮子]
+title: iOS-EmptyPage[Swift编写的空白页占位轮子]
 date: 2018-01-28
-categories: "iOS"
-tags: 
-     - iOS
-     - 安利
-     - 轮子
+categories: [ios]
+tags: [ios,swift,cocoapods,轮子]
 description: 采用swift编写的轻量级可定制化的空白页轮子.
 ---
 

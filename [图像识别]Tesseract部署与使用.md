@@ -1,10 +1,8 @@
 ---
 title: Tesseract macOS 部署
 date: 2018-01-02
-categories: "图像识别"
-tags: 
-     - tesseract
-     - orc
+categories: [图像识别]
+tags: [tesseract,orc]
 ---
 
 **[Tesseract](https://github.com/tesseract-ocr/tesseract)**，一款由HP实验室开发由Google维护的开源OCR（Optical Character Recognition , 光学字符识别）引擎，与Microsoft Office Document Imaging（MODI）相比，我们可以不断的训练的库，使图像转换文本的能力不断增强；如果团队深度需要，还可以以它为模板，开发出符合自身需求的OCR引擎。
