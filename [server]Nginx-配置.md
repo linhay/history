@@ -106,24 +106,24 @@ apt-get install nginx
  server {
         listen 443;
         server_name www.linhey.com;
+		# 多个 location 依次匹配,直至匹配成功.
      
-     #多个 location 依次匹配,直至匹配成功.
-        location ^~ /rn/ {
-            autoindex on;
-            autoindex_exact_size off;
-            autoindex_localtime on;
-            # 优先加载索引文件
-            index index.html;
-            root /root/rn/;  
+		location /JSBridge {
+		# alias响应的路径：配置路径+静态文件(去除location中配置的路径)
+		# 查询路径: /root/html/JSBridge
+        alias /root/html/JSBridge;
+        autoindex on;
         }
      
-		location ^~ / {
+		location /blog {
             autoindex on;
             autoindex_exact_size off;
             autoindex_localtime on;
             # 优先加载索引文件
             index index.html;
-            root /root/html/;  
+            # root响应的路径：配置的路径+完整访问路径(完整的location配置路径+静态文件)
+            # 查询路径: /root/html/blog
+            root /root/html;  
         }
     }
 ```
