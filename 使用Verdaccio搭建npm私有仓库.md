@@ -3,7 +3,10 @@ title: 使用Verdaccio搭建npm私有仓库
 date: 2018-09-20
 categories: [node]
 tags: [docker,node,npm,verdaccio]
-description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介绍利用docker中配置与启动Verdaccio服务.
+description: 
+作者本身计划是采用Sinopia来作为服务,可惜Sinopia作者已经在三年前不维护该库.
+Verdaccio是一个轻量级的私有NPM的Registry,派生于Sinopia.
+本文主要介绍利用docker中配置与启动Verdaccio服务.
 ---
 
 
@@ -13,7 +16,9 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
 
 ## docker-compose
 
-1. ### 目录结构
+1. ###[ 🌰 Github 地址]()
+
+2. ### 目录结构
 
    ```shell
    .
@@ -28,7 +33,7 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
    └── update.sh # 启动/重启服务
    ```
 
-2. ### docker-compose的安装与操作命令
+3. ### docker-compose的安装与操作命令
 
       - 官方网址教程: https://docs.docker.com/compose/install/
 
@@ -58,7 +63,7 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
      docker-compose -f "docker-compose.yml" down
      ```
 
-3. ### 快速启动!
+4. ### 快速启动!
 
    - 使用默认配置的`docker-compose`启动容器:
 
@@ -78,7 +83,7 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
 
      ![html](https://s.linhey.com/verdaccio-html.png)
 
-4. ### 更多配置
+5. ### 更多配置
 
    - 更多配置的docker-compose文件:
 
