@@ -2,7 +2,7 @@
 title: 使用Verdaccio搭建npm私有仓库
 date: 2018-09-20
 categories: [node]
-tags: [docker,node,npm]
+tags: [docker,node,npm,verdaccio]
 description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介绍利用docker中配置与启动Verdaccio服务.
 ---
 
