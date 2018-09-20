@@ -157,6 +157,25 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
 
      无法找到为用户设定组别的选项,目前只能单个用户进行权限管理.
 
+   - https
+
+     作者采用一个全局独立的nginx来做反向代理. `server`中的路径根据自身nginx配置调整.
+
+     ```shell
+     server {
+         listen 443;
+         server_name npm.linhey.com;
+         ssl on;
+         ssl_certificate /root/nginx/ssl/npm.crt;
+         ssl_certificate_key /root/nginx/ssl/npm.key;
+         location / {
+             proxy_redirect off;
+             proxy_pass http://localhost:4873;
+         }
+     }
+     ```
+
+
 ### 参考:
 
 - [Verdaccio 官网](https://verdaccio.org/zh-CN/)
