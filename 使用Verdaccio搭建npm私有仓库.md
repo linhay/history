@@ -3,7 +3,7 @@ title: 使用Verdaccio搭建npm私有仓库
 date: 2018-09-20
 categories: [node]
 tags: [docker,node,npm,verdaccio]
-description: 作者本身计划是采用Sinopia来作为服务,可惜Sinopia作者已经在三年前不维护该库.Verdaccio是一个轻量级的私有NPM的Registry,派生于Sinopia.本文主要介绍利用docker中配置与启动Verdaccio服务.
+description: 作者本身计划是采用Sinopia来作为服务,可惜Sinopia作者已经在三年前不维护该库.Verdaccio是一个轻量级的私有NPM的Registry(派生于Sinopia).本文主要介绍利用docker中配置与启动Verdaccio服务.
 ---
 
 
