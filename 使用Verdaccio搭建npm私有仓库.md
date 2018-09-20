@@ -13,7 +13,7 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
 
 ## docker-compose
 
-1. 目录结构
+1. ### 目录结构
 
    ```shell
    .
@@ -28,7 +28,7 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
    └── update.sh # 启动/重启服务
    ```
 
-2. docker-compose的安装与操作命令
+2. ### docker-compose的安装与操作命令
 
       - 官方网址教程: https://docs.docker.com/compose/install/
 
@@ -58,7 +58,7 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
      docker-compose -f "docker-compose.yml" down
      ```
 
-3. 快速启动!
+3. ### 快速启动!
 
    - 使用默认配置的`docker-compose`启动容器:
 
@@ -78,7 +78,7 @@ description: Verdaccio是一个轻量级的私有NPM的Registry.本文主要介�
 
      ![html](https://s.linhey.com/verdaccio-html.png)
 
-4. 更多配置
+4. ### 更多配置
 
    - 更多配置的docker-compose文件:
 
