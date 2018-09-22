@@ -99,6 +99,10 @@ description: 作者本身计划是采用Sinopia来作为服务,可惜Sinopia作�
            - ./conf:/verdaccio/conf 
            - ./storage:/verdaccio/storage 
            - ./plugins:/verdaccio/plugins 
+      # 挂载卷,否则可能有文件权限问题
+      volumes:
+       verdaccio:
+         driver: local
      ```
 
    - 编辑`./conf/config.yaml`文件:
@@ -176,6 +180,21 @@ description: 作者本身计划是采用Sinopia来作为服务,可惜Sinopia作�
          }
      }
      ```
+
+   - errors
+
+     1. Error:` EACCES: permission denied, open '/verdaccio/conf/htpasswd'`
+
+        作者在采用`git`方式部署至`Ubuntu 16.04.2`时出现该问题.
+
+        反复尝试多次,最后定位问题出在外部挂载目录权限上.
+
+        ```shell
+        chmod 777 -R conf
+        chmod 777 -R storage
+        chmod 777 -R plugins
+        ```
+
 
 
 ### 参考:
