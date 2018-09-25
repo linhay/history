@@ -13,7 +13,7 @@ description: 作者本身计划是采用Sinopia来作为服务,可惜Sinopia作�
 
 ## docker-compose
 
-1. ###[ 🌰 Github 地址]()
+1. ### [ 🌰 Github 地址]()
 
 2. ### 目录结构
 
@@ -184,9 +184,7 @@ description: 作者本身计划是采用Sinopia来作为服务,可惜Sinopia作�
    - errors
 
      1. Error:` EACCES: permission denied, open '/verdaccio/conf/htpasswd'`
-
         作者在采用`git`方式部署至`Ubuntu 16.04.2`时出现该问题.
-
         反复尝试多次,最后定位问题出在外部挂载目录权限上.
 
         ```shell
