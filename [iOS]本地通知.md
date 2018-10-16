@@ -3,6 +3,7 @@ title: iOS-本地通知
 date: 2018-04-08 
 categories: [ios]
 tags: [ios,Notification]
+description: iOS 上的本地通知实现.
 ---
 
 # iOS-本地通知
