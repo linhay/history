@@ -1,3 +1,12 @@
+---
+title: EmptyPage(空白页组件)原理与使用	
+date: 2018-01-28	
+updated: 2018-11-17	
+categories: [ios]	
+tags: [ios,swift,cocoapods]	
+description: 一套应用于swift项目的空白页.可利用预置的模板快速构建空白页视图.亦可高度自定义视图搭建炫酷的交互.	
+---
+
 > app 显示列表内容时, 在某一时刻可能数据为空(等待网络请求/网络请求失败)等, 添加一个空白指示页将有效缓解用户可能造成的焦虑或混乱. 并可以帮助用户处理问题.
 >
 > 市面上已经有部分成熟的空白页框架,最典型的就是使用[**DZNEmptyDataSet**](https://github.com/dzenbot/DZNEmptyDataSet).
