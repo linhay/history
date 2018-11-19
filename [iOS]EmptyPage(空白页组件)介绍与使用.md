@@ -23,7 +23,7 @@ description: 一套应用于swift项目的空白页.可利用预置的模板快�
 >
 > ps: 目前阶段只提供 swift 版本.
 
-| ![](https://s.linhey.com/emptyPage-07.gif) | ![](https://s.linhey.com/emptyPage-07.gif) |
+| ![](https://s.linhey.com/emptyPage-08.gif) | ![](https://s.linhey.com/emptyPage-07.gif) |
 | :----------------------------------------: | :----------------------------------------: |
 | | |
 
