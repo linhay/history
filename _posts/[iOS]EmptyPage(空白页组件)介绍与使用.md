@@ -23,9 +23,10 @@ description: 一套应用于swift项目的空白页.可利用预置的模板快�
 >
 > ps: 目前阶段只提供 swift 版本.
 
-| ![](https://s.linhey.com/emptyPage-08.gif) | ![](https://s.linhey.com/emptyPage-07.gif) |
-| :----------------------------------------: | :----------------------------------------: |
-| | |
+
+| ![](https://s.linhey.com/emptypage-10.gif) | ![](https://s.linhey.com/emptypage-12.gif) | ![](https://s.linhey.com/emptypage-11.gif) |
+| :----------------------------------------: | :----------------------------------------: | ------------------------------------------ |
+|                                            |                                            |                                            ||
 
 ## 实现原理
 
@@ -163,9 +164,9 @@ description: 一套应用于swift项目的空白页.可利用预置的模板快�
      - **图片模板**(`EmptyPageView.ContentView.onlyImage`)
      - 混合模板(`EmptyPageView.ContentView.standard`)
 
-|                                                    |      |      |
-| -------------------------------------------------- | ---- | ---- |
-| ![文字模板](https://s.linhey.com/emptyPage-03.png) | ![图片模板](https://s.linhey.com/emptyPage-04.png) | ![混合模板](https://s.linhey.com/emptyPage-02.png) |
+|                                                    |                                                    |                                                    |
+| -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
+| ![文字模板](https://s.linhey.com/emptypage-13.png) | ![图片模板](https://s.linhey.com/emptypage-14.png) | ![混合模板](https://s.linhey.com/emptypage-15.png) |
 
    - **使用**
 
@@ -240,7 +241,7 @@ description: 一套应用于swift项目的空白页.可利用预置的模板快�
 
 ## 结尾
 
-项目开源链接: [Github/EmptyPage](https://github.com/linhay/EmptyPage)
+项目开源链接: [**Github/EmptyPage**](https://github.com/linhay/EmptyPage)
 
-个人博客链接: [四方田](https://linhey.com)
+个人博客链接: [**四方**](https://linhey.com)
 
