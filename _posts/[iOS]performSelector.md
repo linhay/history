@@ -6,8 +6,6 @@ tags: [ios,swift]
 description: iOS中的动态调用之performSelector.
 ---
 
-# swift - 动态调用之performSelector.
-
 ### 同步执行:
 
 ```swift
