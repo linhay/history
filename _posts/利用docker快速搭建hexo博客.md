@@ -14,7 +14,7 @@ description:
 
 ## 预期
 
-- [x] **耗时: 20min**
+- [x] **整体耗时: 20min**
 - [x] **自动更新博客**
 
 ## 准备工作
@@ -67,10 +67,11 @@ description:
 
 3.  **安装docker环境**
 
-   ```shell
-   cd ~/build/shells/
-   sh install-docker.sh	
-   ```
+	   ```shell
+	cd ~/build/shells/
+	sh install-docker.sh	
+	```
+
 
 4. **修改Dockerfile文件**
 
