@@ -7,8 +7,6 @@ tags: [hexo,server]
 
 ![hexo-docker-1](https://s.linhey.com/hexo-docker-1.png)
 
-<!-- more -->
-
 由于安利一些同事购买腾讯云低价服务器,答应了人手搭建一个自动更新的个人博客,顺便优化了一下本站的部署代码, 该篇只介绍如何快速部署,不聊知识点,突出一个**快**字!
 
 ## 预期
