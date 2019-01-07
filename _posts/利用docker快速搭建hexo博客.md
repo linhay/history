@@ -1,8 +1,8 @@
 ---
 title: 利用docker快速搭建hexo博客
-date: 2019-01-07
+date: 2018-01-07
 categories: [server]
-tags: [hexo,server]
+tags: [server]
 ---
 
 ![hexo-docker-1](https://s.linhey.com/hexo-docker-1.png)
