@@ -20,7 +20,6 @@ description:
 ## 准备工作
 
 - [x] **ubuntu 云服务器一台**
-
 - [x] **Github 账户一个**
 
 ## 开始部署
