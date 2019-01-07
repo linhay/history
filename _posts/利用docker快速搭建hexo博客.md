@@ -8,6 +8,8 @@ description:
 
 ![hexo-docker-1](https://s.linhey.com/hexo-docker-1.png)
 
+<!-- more -->
+
 由于安利一些同事购买腾讯云低价服务器,答应了人手搭建一个自动更新的个人博客,顺便优化了一下本站的部署代码, 该篇只介绍如何快速部署,不聊知识点,突出一个**快**字!
 
 ## 预期
@@ -101,6 +103,17 @@ description:
 2. **等5s再访问博客即可**
 
    > 有一个 5s 定时拉取的脚本在 docker 中.
+
+## 样式更新
+
+1. **修改 hexo_template 仓库内容**
+
+2. **重启服务**
+
+   ```shell
+   cd ~/build/dockerfiles/hexo/
+   sh start.sh
+   ```
 
 ## 进阶
 
