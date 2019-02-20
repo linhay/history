@@ -2,7 +2,7 @@
 title: 利用docker快速搭建hexo博客
 date: 2019-01-07
 categories: [server]
-tags: [server,ubuntu]
+tags: [hexo,server,ubuntu]
 description: 
 ---
 
