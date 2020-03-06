@@ -110,7 +110,7 @@ description: 采用docker构建hexo服务.
    # 结束就可以访问对应网址了~
    ```
 
-2. **博客更新**
+2. **网站更新**
 
    ```shell
    cd ~/hexo

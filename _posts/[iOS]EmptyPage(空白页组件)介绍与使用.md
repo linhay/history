@@ -243,5 +243,5 @@ description: 一套应用于swift项目的空白页.可利用预置的模板快�
 
 项目开源链接: [**Github/EmptyPage**](https://github.com/linhay/EmptyPage)
 
-个人博客链接: [**四方**](https://linhey.com)
+个人网站链接: [**四方**](https://linhey.com)
 

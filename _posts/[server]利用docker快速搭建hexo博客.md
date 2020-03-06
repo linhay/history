@@ -1,5 +1,5 @@
 ---
-title: 利用docker快速搭建hexo博客
+title: 利用docker快速搭建hexo网站
 date: 2019-01-07
 categories: [server]
 tags: [hexo,server,ubuntu]
@@ -10,14 +10,14 @@ description:
 
 <!-- more -->
 
-由于近期安利一些同事购买腾讯云低价服务器,承诺了人手送一个可以自动更新的个人博客,顺便优化了一下[本站](https://www.linhey.com/)的部署代码.
+由于近期安利一些同事购买腾讯云低价服务器,承诺了人手送一个可以自动更新的个人网站,顺便优化了一下[本站](https://www.linhey.com/)的部署代码.
 
 ### 该篇只介绍如何快速部署,不聊其他,突出一个**快**字!
 
 ## 预期
 
 - [x] **整体耗时: 20min**
-- [x] **自动更新博客**
+- [x] **自动更新网站**
 
 ## 准备工作
 
@@ -29,7 +29,7 @@ description:
 1. **在 github 上 fork  以下 2 个库:**
 
    - 样式主题仓库: https://github.com/linhay/hexo_template
-   - 博客文章仓库: https://github.com/linhay/hexo_pages_template
+   - 网站文章仓库: https://github.com/linhay/hexo_pages_template
 
 2. **修改 hexo_template 仓库中 `./_config.yml` 文件以下内容:**
 
@@ -42,7 +42,7 @@ description:
    author: 作者名称
    
    # URL
-   url: 博客主页URL
+   url: 网站主页URL
    ```
 
 3. **查看修改 hexo_template 仓库中 `./themes/next/_config.yml`文件内容:**
@@ -94,7 +94,7 @@ description:
 
    - 腾讯云 -> 云服务器 -> 安全组
 
-7. **访问博客**
+7. **访问网站**
 
    - 打开浏览器访问http://[公网IP]: 9000
 
@@ -102,7 +102,7 @@ description:
 
 1. **将新的文章上传至 hexo_pages_template 仓库 `_post` 目录下**
 
-2. **等5s再访问博客即可**
+2. **等5s再访问网站即可**
 
    > 有一个 5s 定时拉取的脚本在 docker 中.
 
